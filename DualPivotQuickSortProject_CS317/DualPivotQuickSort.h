@@ -8,26 +8,22 @@
 
 #include <iostream>
 #include <vector>
-#include <time.h>
 
 using namespace std;
 
-class DualPivotQuickSort{
-
+class DualPivotQuickSort
+{
 private:
+
+	void _prepSort();
+    void _sort(vector<int>& values, int left, int right);
 
 public:
 
     DualPivotQuickSort();
     ~DualPivotQuickSort();
 
-    void sort(vector<int> &);
-
-private:
-
-    void _prepSort();
-    void _sort(vector<int> &, int, int);
-    
+    void sort(vector<int>& values);
 };
 
 #endif //_DUAL_PIVOT_QUICK_SORT_

@@ -1,5 +1,4 @@
 /*
-*   File: 
 *	Author: Nathan Phipps
 *	Date: 10/1/2014
 */
@@ -16,8 +15,8 @@
 
 using namespace std;
 
-class DualPivotQuickSortTester {
-
+class DualPivotQuickSortTester 
+{
 private:
 
     vector<int> values;
@@ -29,7 +28,6 @@ public:
     ~DualPivotQuickSortTester();
     
     int run();
-
 };
 
 #endif //_DUAL_PIVOT_QUICK_SORT_TESTER_
