@@ -44,7 +44,7 @@ void DualPivotQuickSort::_sort(vector<int>& values, int left, int right)
         while (left_pivot == right_pivot);
     }
     
-    //our pivot values are not at left and right
+    //our pivot values are now at left and right
     swap(values[left], values[left_pivot]);
     swap(values[right], values[right_pivot]);
     
